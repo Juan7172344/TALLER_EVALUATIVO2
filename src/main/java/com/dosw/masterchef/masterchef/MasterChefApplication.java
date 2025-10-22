@@ -1,13 +1,12 @@
-package com.dosw.masterchef.masterchef;
+package com.dosw.masterchef;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MasterchefApplication {
-
+public class MasterChefApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(MasterchefApplication.class, args);
+		SpringApplication.run(MasterChefApplication.class, args);
 	}
-
 }
+
