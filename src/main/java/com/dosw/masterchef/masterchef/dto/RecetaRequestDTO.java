@@ -23,10 +23,10 @@ public class RecetaRequestDTO {
 
     private Integer temporada;
 
-    // ✅ Constructor vacío (ya existía implícitamente, pero lo dejamos explícito)
+
     public RecetaRequestDTO() {}
 
-    // ✅ Constructor completo (lo que usan los tests)
+
     public RecetaRequestDTO(String titulo, List<String> ingredientes, List<String> pasos,
                             String nombreChef, String tipoChef, Integer temporada) {
         this.titulo = titulo;
@@ -37,7 +37,7 @@ public class RecetaRequestDTO {
         this.temporada = temporada;
     }
 
-    // ✅ Getters y setters
+
     public String getTitulo() { return titulo; }
     public void setTitulo(String titulo) { this.titulo = titulo; }
 
